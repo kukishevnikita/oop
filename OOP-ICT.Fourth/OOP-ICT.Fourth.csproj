@@ -20,4 +20,13 @@
       <None Remove="obj\**" />
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\OOP-ICT.First\OOP-ICT.First.csproj" />
+        <ProjectReference Include="..\OOP-ICT.Second\OOP-ICT.Second.csproj" />
+        <ProjectReference Include="..\OOP-ICT.Third\OOP-ICT.Third.csproj" />
+    </ItemGroup>
+
+
+
+
 </Project>

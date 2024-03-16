@@ -32,5 +32,9 @@ public class Dealer
         Deck.Cards.Remove(card);
         return card;
     }
-        
+
+    public void SetDeck(CardDeck cardDeck)
+    {
+        Deck = cardDeck;
+    }
 }
